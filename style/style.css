@@ -141,7 +141,7 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
 }
 
 #form {
-    height: 90%;
+    height: 32.5rem;
     width: 25rem;
     display: flex;
     flex-direction: column;
