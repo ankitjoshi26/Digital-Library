@@ -388,12 +388,21 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
     transform: translate(-1px);
 }
 
+
+/* responsive-design  */
+
 @media (max-width: 1024px){
     #footer{
         padding: 1.5rem;
     }
+    #hero-section h3{
+        padding: 0.5rem;
+    }
 }
 @media (max-width: 768px) {
+    #header{
+        padding: 0.8rem 1.2rem;
+    }
     #menu {
         position: fixed;
         top: 0;
@@ -427,6 +436,7 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
     #hero-section h3{
         padding: 0.5rem;
     }
+
     /* book collection */
 
     #books-container h2{
