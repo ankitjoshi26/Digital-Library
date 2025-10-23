@@ -88,7 +88,7 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
 }
 
 #hero-section input{
-    width: 90%;
+    width: 80%;
     max-width: 40rem;
     border-radius: 15px;
     padding: 0.7rem;
@@ -394,6 +394,7 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
 @media (max-width: 1024px){
     #footer{
         padding: 1.5rem;
+        gap: 1.2rem;
     }
     #hero-section h3{
         padding: 0.5rem;
@@ -454,9 +455,10 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
     }
     #userform{
         margin-top: 2rem;
+        width: 90%;
     }
     #userform div input,textarea{
-        min-width: 12rem;
+        width: 100%;
     }
     #contact-us h2{
         font-size: 2.5rem;
