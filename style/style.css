@@ -15,7 +15,7 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.3rem 2.5rem;
+    padding: 1rem 3rem;
     background-color: white;
     color: #02372e;
     position: fixed;
@@ -26,7 +26,7 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
 
 #menu {
     display: flex;
-    gap: 1.4rem;
+    gap: 2.5rem;
 }
 
 #logo a h2 {
@@ -263,6 +263,31 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
     transform: scale(1.05); 
 }
 
+/* about-section */
+
+/* .about {
+    background-color: #fffaf0; 
+    width: 100%;
+    height: auto;
+    padding: 1.2rem 2.5rem;
+    text-align: left;
+  }
+
+  .about h2 {
+    color: #02372e;
+    font-size: 2.5rem;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 0.5rem;
+  }
+
+  .about p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  } */
+
 /* footer  */
 
 #footer{
@@ -363,6 +388,11 @@ Subtext / Less important	#00796B80	Slightly transparent for secondary text */
     transform: translate(-1px);
 }
 
+@media (max-width: 1024px){
+    #footer{
+        padding: 1.5rem;
+    }
+}
 @media (max-width: 768px) {
     #menu {
         position: fixed;
